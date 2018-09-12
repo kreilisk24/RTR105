@@ -2,7 +2,7 @@
 Datormācības kursa elektroniskā klade
 ## 2. nodarbība izmantotās komandas
 **Ctrl+Alt+T** - termināļa atvēršana  
-*burts+***TAB(2x)** - komandu saraksts ar noteikto burtu  
+*burts*+**TAB(2x)** - komandu saraksts ar noteikto burtu  
 **Q** - saraksta aizvēršana  
 *sh* - pārslēgšanās uz Shell valodu  
 **Ctrl+L** - termināļa attīrīšana  
