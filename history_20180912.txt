@@ -1,0 +1,14 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $0
+    4  whoami
+    5  who
+    6  pwd
+    7  man pwd
+    8  ls
+    9  ls -l
+   10  man ls
+   11  ls -a
+   12  ls -la
+   13  i
+   14  history > history_20180912.txt
