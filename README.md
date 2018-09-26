@@ -39,3 +39,13 @@ less (fails)* - faila lasīšana
 **fails** - zvaigznītes apzīmē filtrē visus failus, kam nosaukumā fails  
 *rm* - dzēst failu  
 *rm -f* - dzēst failu, ja ir liegta piekļuve (rwx)  
+## 4. nodarbības komandas 
+Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šādas darbības:  
+1)Izveido teksta failu - *nano mans_skripts.sh*  
+2)Raksta ceļu un programmēšanas valodu ar kuru tiek izpildīts skripts - *#!bin/bash  
+3)Ieraksta komandas. piem. *mkdir Mape...*  
+4)*PATH=$PATH:~* - paplašina adresi komandu meklēšanai  
+5)Saglabā failu  
+6)Lai atļautu palaist skriptu, nepieciešams modificēt faila atļaujas - *chmod 764 mans_skripts.sh  
+7)Palaiž skriptu *mans_skripts.sh*
+
