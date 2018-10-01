@@ -48,4 +48,16 @@ Lai izveidotu skriptu, kas izpilda vairākas komandas vienlaicīgi, izpilda šā
 5)Saglabā failu  
 6)Lai atļautu palaist skriptu, nepieciešams modificēt faila atļaujas - *chmod 764 mans_skripts.sh  
 7)Palaiž skriptu *mans_skripts.sh*
-
+## 5. nodarbības komandas  
+### Komandas ar programmatūras valodu "python"  
+*python* - startē programmatūras valodu  
+*vars()* - visas pieejamās komandas funkcija  
+*__builtins__.__doc__* - īss apraksts komandai *__doc__*  
+*print()* funkcija, kas parāda aprakstu ar komandām tajā (/n - kā rindkopas atstarpe)  
+*a = 10* - piešķirt mainīgajam "a" vērtību 10  
+a ir vesels skaitlis, kas python uztver kā "integer"  
+*b = 1.56* - piešķirt mainīgajam "b" vērtību 1.56   
+b ir reāls skailis - "float"  
+*c = 'A'* - "c" mainīgais ir A  
+*ipython* -  
+*idle* -  
