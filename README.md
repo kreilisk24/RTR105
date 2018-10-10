@@ -60,4 +60,8 @@ a ir vesels skaitlis, kas python uztver kā "integer"
 b ir reāls skailis - "float"  
 *c = 'A'* - "c" mainīgais ir A  
 *ipython* -  
-*idle* -  
+*idle* -
+## 6. nodarbības komandas
+*input()* - Lietotājam pieprasa ievadīt skaitli (Piem. input("Ievadi skaitli:")  
+*raw_input()* - Pieprasa ievadīt tekstu (Piem. raw_input("Ievadi Tekstu:")  
+
