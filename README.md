@@ -64,4 +64,8 @@ b ir reāls skailis - "float"
 ## 6. nodarbības komandas
 *input()* - Lietotājam pieprasa ievadīt skaitli (Piem. input("Ievadi skaitli:")  
 *raw_input()* - Pieprasa ievadīt tekstu (Piem. raw_input("Ievadi Tekstu:")  
-
+## 9. nodarbības komandas - Funkcijas
+*def thing():* - *def* rada jaunu funkciju ar nosaukumu thing()  
+*def thing(a, b):* - funkcija ar diviem argumentiem  
+*return* - def funkcijas beigās attēlo fināla rezultātu ar 2 argumentiem  
+ 
