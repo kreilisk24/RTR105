@@ -68,4 +68,11 @@ b ir reāls skailis - "float"
 *def thing():* - *def* rada jaunu funkciju ar nosaukumu thing()  
 *def thing(a, b):* - funkcija ar diviem argumentiem  
 *return* - def funkcijas beigās attēlo fināla rezultātu ar 2 argumentiem  
- 
+## 10. nodarbība - cikli  
+## 11. nodarbība - strings  
+Dažādu *string type* funkciju pielietojums  
+Piem.  
+word = "alpha"  
+*len(word)* - simbolu skaits *word*  
+*.lower()* - lowercase letters  
+
