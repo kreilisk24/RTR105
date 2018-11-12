@@ -1,0 +1,22 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  idle &
+    4  git clone https://github.com/kreilisk24/RTR105
+    5  cd RTR105
+    6  ls -l
+    7  ~
+    8  cd ~
+    9  mv
+   10  mv --help
+   11  ls -l
+   12  mv dgr_20181112.py RTR105
+   13  ls -l
+   14  mv sin_caur_summu_ver1.py RTR105
+   15  mv sin_caur_summu_ver2.py RTR105
+   16  mv sin_caur_summu_ver3.py RTR105
+   17  mv sin_caur_summu_ver4.py RTR105
+   18  mv sin_caur_summu_ver5.py RTR105
+   19  mv sin_caur_summu_galaver.py RTR105
+   20  ls -l
+   21  cd RTR105
+   22  history > history_20181112.txt
