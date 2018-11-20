@@ -15,6 +15,6 @@ def mans_sinuss(x):
     return S
 x = float(input("Lietotāj, lūdzu, ievadi argumentu (x): "))
 y = sin(x)
-print("standarta sin(%.2f) = %6.2f"%(x,y))
+print("standarta sin(%.2f) = %6.2f"%(x,y))  
 yy = mans_sinuss(x)
 print("mans sin(%.2f) = %6.2f"%(x,yy))

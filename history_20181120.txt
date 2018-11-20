@@ -1,0 +1,42 @@
+    1  sudo sh ./VBoxLinuxAdditions.run
+    2  Is
+    3  is
+    4  ls
+    5  ls/Videos
+    6  ls/desktop
+    7  ls/Desktop
+    8  /ls
+    9  ls
+   10  du
+   11  less
+   12  --help
+   13  help
+   14  ps
+   15  who
+   16  top
+   17  ls
+   18  du
+   19  ls
+   20  top
+   21  find
+   22  free
+   23  ls
+   24  python
+   25  sudo apt install python
+   26  python
+   27  ipython
+   28  sudo apt install ipython
+   29  ipython
+   30  idle
+   31  sudo apt install idle
+   32  idle &
+   33  git clone https://github.com/kreilisk24/RTR105
+   34  sudo apt install git
+   35  apt-get update
+   36  sudo apt install git
+   37  sudo apt-get update
+   38  sudo apt install git
+   39  git clone https://github.com/kreilisk24/RTR105
+   40  cd RTR105
+   41  idle &
+   42  history > history_20181120.txt
