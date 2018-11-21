@@ -75,4 +75,6 @@ Piem.
 word = "alpha"  
 *len(word)* - simbolu skaits *word*  
 *.lower()* - lowercase letters  
+## 14. nodarbibas Laboratorijas darbs - Teilora rindas cos(x^2)  
+ RTR105/cos(x^2).png
 
