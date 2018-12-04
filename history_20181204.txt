@@ -1,0 +1,91 @@
+    1  sudo sh ./VBoxLinuxAdditions.run
+    2  Is
+    3  is
+    4  ls
+    5  ls/Videos
+    6  ls/desktop
+    7  ls/Desktop
+    8  /ls
+    9  ls
+   10  du
+   11  less
+   12  --help
+   13  help
+   14  ps
+   15  who
+   16  top
+   17  ls
+   18  du
+   19  ls
+   20  top
+   21  find
+   22  free
+   23  ls
+   24  python
+   25  sudo apt install python
+   26  python
+   27  ipython
+   28  sudo apt install ipython
+   29  ipython
+   30  idle
+   31  sudo apt install idle
+   32  idle &
+   33  git clone https://github.com/kreilisk24/RTR105
+   34  cd RTR105
+   35  idle
+   36  nano README.md
+   37  ./git-upload 20181121_17_13
+   38  git pull
+   39  ls -l
+   40  git pull --help
+   41  git pull --commit
+   42  .git/object
+   43  .git/objects
+   44  cd .git/objects/d2
+   45  ls -l
+   46  rm 77ca0f07a5820115880af1f99ad14652e0766f 
+   47  ls -l
+   48  cd RTR105
+   49  cd /RTR105
+   50  ~
+   51  cd ~
+   52  cd RTR105
+   53  ./git-upload 20181121_17_21
+   54  idle
+   55  rm RTR105
+   56  rm -rf RTR105
+   57  git clone https://github.com/kreilisk24/RTR105
+   58  cd RTR105
+   59  idleidle
+   60  idle
+   61  ./git-upload 20181121_17_49
+   62  ls -l
+   63  rm RTR105
+   64  rmd RTR105
+   65  rm -help
+   66  rm --help
+   67  rm -d RTR105
+   68  rm -i RTR105
+   69  rm -r RTR105
+   70  ls -l
+   71  rm -force RTR105
+   72  rm -dir RTR105
+   73  rm RTR105
+   74  rm --help
+   75  rm -f RTR105
+   76  rm -d-f RTR105
+   77  rm -d -f RTR105
+   78  rm -d -f -I RTR105
+   79  rm -d  -I RTR105
+   80  rm -I RTR105
+   81  rm -d -I RTR105
+   82  rm -rf RTR105
+   83  git clone github.com/kreilisk24/RTR105
+   84  git clone https://www.github.com/kreilisk24/RTR105
+   85  cd RTR105
+   86  idle -n gnuplot
+   87  gnuplot
+   88  sudo apt install gnuplot
+   89  gnuplot
+   90  idle -n &
+   91  history > history_20181204.txt
