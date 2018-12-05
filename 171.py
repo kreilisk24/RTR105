@@ -1,7 +1,7 @@
 # Fails: 171.py
 # Autors: Karlis Kreilis
 # Apliecibas numurs: 260REB181
-# Datums: 03.12.2018
+# Datums: 04.12.2018
 # Sagatave funkcijas saknes meklesanai ar dihatomijas metodi
 
 # -*- coding: utf -8 -*-

@@ -78,3 +78,9 @@ word = "alpha"
 ## 14. nodarbibas Laboratorijas darbs - Teilora rindas cos(x^2)  
  RTR105/cos(x^2).png
 
+## 17. Skaitliskā diferencēšana
+8 . laboratorijas darbs - atvasinajums ar savu funkciju *cos(x^2)*  
+skatīt derivative.png  
+skatīt atvasinajums.py
+
+
