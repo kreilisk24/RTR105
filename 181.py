@@ -18,8 +18,8 @@ def f(x):
         a = a * float(R)
         S = S + a
     return S
-N = 1000
-l = 0
+N = 5000
+l = -1
 c = 2
 #pseido-gadiijuma skaitlju generatora grauds
 #random.seed(1)
@@ -50,9 +50,12 @@ plt.title('Funkcija un taas integraalis (laukums starp funkciju un x ass)')
 #plt.plot(x,y,'ko')
 N1 = 0
 for i in range(N):
-    if y[i] < x[i]:
+    if y[i] > 0 and y[i] < f(x[i]) :
         plt.plot(x[i],y[i],'go')
         N1 = N1 + 1
+    elif y[i] < 0 and y[i] > f(x[i]):
+        plt.plot(x[i],y[i],'go')
+        N1 = N1 - 1
     else:
         plt.plot(x[i],y[i],'ro')
 S_zinaamais = (c-l) * (c-l)
