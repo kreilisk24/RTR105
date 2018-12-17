@@ -81,6 +81,9 @@ word = "alpha"
 ## 17. Skaitliskā diferencēšana
 8 . laboratorijas darbs - atvasinajums ar savu funkciju *cos(x^2)*  
 skatīt derivative.png  
-skatīt atvasinajums.py
+skatīt atvasinajums.py  
+## 18. Skaitliskā integrēšana  
+*MonteCarlo* metode - *random.uniform*  
+
 
 

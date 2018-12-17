@@ -3,28 +3,22 @@ sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
 
 # N vienmieriigi sadaliiti gadiijuma skaitlji
 # N uniformly distributed random numbers
-import numpy
+
 from numpy import random
 #print(random.__doc__)
 #print(random.uniform.__doc__)
-def f(x):
-    k = 0
-    while k < 501:
-        if k == 0:
-            a = ((-1)**0*float(x)**0)/(1)
-            S = float(a)
-        k = k + 1
-        R = ((-1)**1*float(x)**4)/((2*k)*(2*k-1))
-        a = a * float(R)
-        S = S + a
-    return S
-N = 10000
-l = -2
-c = 4
+
+N = 1000
+a = 0
+b = 5
+
 #pseido-gadiijuma skaitlju generatora grauds
 #random.seed(1)
-x = random.uniform(l,c,N)
+
+x = random.uniform(a,b,N)
+#x = random.normal(a,b,N)
 '''
+
 k = [0, 0, 0, 0, 0]
 for i in range(N):
     if x[i] < 1:
@@ -39,8 +33,9 @@ for i in range(N):
         k[4] = k[4] + 1
 print(k)
 '''
-y = random.uniform(l,c,N)
-    
+
+y = random.uniform(a,b,N)
+
 from matplotlib import pyplot as plt
 plt.grid()
 plt.xlabel('x')
@@ -50,15 +45,13 @@ plt.title('Funkcija un taas integraalis (laukums starp funkciju un x ass)')
 #plt.plot(x,y,'ko')
 N1 = 0
 for i in range(N):
-    if y[i] > 0 and y[i] < f(x[i]) :
+    if y[i] < x[i]:
         plt.plot(x[i],y[i],'go')
         N1 = N1 + 1
-    elif y[i] < 0 and y[i] > f(x[i]):
-        plt.plot(x[i],y[i],'go')
-        N1 = N1 - 1
     else:
         plt.plot(x[i],y[i],'ro')
-S_zinaamais = (c-l) * (c-l)
+
+S_zinaamais = (b-a) * (b-a)
 S_nezinaamais = 1. * S_zinaamais * N1 / N
 print(S_nezinaamais)
 
