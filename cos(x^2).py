@@ -1,4 +1,4 @@
-# cos(x*x)
+# cos(x**2)
 print("Cos(x^2) aprekinasana:")
 from math import cos
 def cos_arg_kvadrataa(x):
