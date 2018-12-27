@@ -12,12 +12,11 @@ def cos_arg_kvadrataa(x):
         R = ((-1)**1*x**4)/((2*k)*(2*k-1))
         a = a * R
         S = S + a
+        print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
         if k == 499:
             print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-            continue
         if k == 500:
             print("a%d = %6.2f S%d = %6.2f"%(k,a,k,S))
-            continue
     return "cos(x^2) caur summu: %6.2f"%(S)
 x = float(input("Ievadiet argumentu x: "))
 g = cos(x*x)
@@ -28,7 +27,7 @@ print("                500")
 print("               _____")
 print("               \            k     4*k")
 print("                \       (-1)  *  x")
-print("cos(2.27*2.27) = >    _________________")
+print("cos(x*x) =       >    _________________")
 print("                /")
 print('               /____       (2 * k)!')
 print('                k=0')
