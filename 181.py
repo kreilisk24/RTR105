@@ -6,14 +6,18 @@ sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
 import numpy
 from math import cos
 from numpy import random
+from matplotlib import pyplot as plt
+
 #print(random.__doc__)
 #print(random.uniform.__doc__)
-N = 2500
-l = -1
-c = 4
+N = 5000
+x0 = 0
+x1 = 4
+y0 = -1
+y1 = 1
 #pseido-gadiijuma skaitlju generatora grauds
 #random.seed(1)
-x = random.uniform(l,c,N)
+x = random.uniform(x0,x1,N)
 '''
 k = [0, 0, 0, 0, 0]
 for i in range(N):
@@ -29,9 +33,9 @@ for i in range(N):
         k[4] = k[4] + 1
 print(k)
 '''
-y = random.uniform(l,c,N)
-    
-from matplotlib import pyplot as plt
+y = random.uniform(y0,y1,N)
+def f(x):
+    return cos(x**2)
 plt.grid()
 plt.xlabel('x')
 plt.ylabel('y')
@@ -40,16 +44,16 @@ plt.title('Funkcija un taas integraalis (laukums starp funkciju un x ass)')
 #plt.plot(x,y,'ko')
 N1 = 0
 for i in range(N):
-    if y[i] > 0 and y[i] < cos(x[i]**2) :
+    if y[i] >= 0 and y[i] <= f(x[i]) :
         plt.plot(x[i],y[i],'go')
         N1 = N1 + 1
-    elif y[i] < 0 and y[i] > cos(x[i]**2):
-        plt.plot(x[i],y[i],'go')
+    elif y[i] <= 0 and y[i] >= f(x[i]):
+        plt.plot(x[i],y[i],'bo')
         N1 = N1 - 1
     else:
         plt.plot(x[i],y[i],'ro')
-S_zinaamais = (c-l) * (c-l)
-S_nezinaamais = 1. * S_zinaamais * N1 / N
+S_zinaamais = (x1-x0) * (y1-y0)
+S_nezinaamais = (1. * S_zinaamais * N1) / N
 print(S_nezinaamais)
 
 plt.show()
